@@ -5,9 +5,10 @@
     "messages": [
       {
         "type": "message",
+        "subtype": "pinned_item",
         "ts": "1358546515.000020",
         "user": "U2147483896",
-        "text": "Hello"
+        "text": "Pinned Hello"
       },
       {
         "type": "message",

@@ -12,5 +12,6 @@ require('./spec/start.test') // depends on database.test
 require('./spec/stop.test') // depends on start.test
 require('./spec/stat.test') // depends on start.test
 require('./spec/commands.test')
+require('./spec/filter.test')
 
 // require('./integration/ephembot.test')

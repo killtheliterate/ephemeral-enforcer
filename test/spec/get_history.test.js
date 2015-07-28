@@ -52,6 +52,7 @@ describe('get_history', function () {
     let got = get(opts)
 
     got.then(function (res) {
+      console.log(res)
       expect(res.length).to.be.equal(20)
       done()
     })
